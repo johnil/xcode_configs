@@ -3,7 +3,11 @@
 2. restart xcode 
 
 custom KeyBindings:
+
 Show Document Items : ⌘o
+
 Move Line Up        : ⌘↑
+
 Move Line Down      : ⌘↓
+
 Select Line         : ⌘d
