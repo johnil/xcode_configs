@@ -3,26 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dis</string>
+	<string>dism</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        &lt;#async code#&gt;
-        dispatch_async(dispatch_get_main_queue(), ^{
+	<string>        dispatch_async(dispatch_get_main_queue(), ^{
             &lt;#main code#&gt;
-        });
-    });</string>
+        });</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>87F8C8CD-17B7-43AC-9EFB-4E37CCA7BB74</string>
+	<string>2603351B-D3DC-454E-9ED4-3DFFC1350A2D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>dispatch_async</string>
+	<string>dism</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Dispatch_async</string>
+	<string>Dispatch_main</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

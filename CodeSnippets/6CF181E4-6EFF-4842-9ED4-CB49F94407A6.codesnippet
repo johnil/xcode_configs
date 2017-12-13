@@ -3,26 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dis</string>
+	<string>sin</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        &lt;#async code#&gt;
-        dispatch_async(dispatch_get_main_queue(), ^{
-            &lt;#main code#&gt;
-        });
-    });</string>
+	<string>+ (instancetype)&lt;#methodName#&gt;{
+    static &lt;#ClassName#&gt; *sSharedInstance;
+    static dispatch_once_t  onceToken;
+    dispatch_once(&amp;onceToken, ^{
+        sSharedInstance = &lt;#init#&gt;;
+    });
+    return sSharedInstance;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>87F8C8CD-17B7-43AC-9EFB-4E37CCA7BB74</string>
+	<string>6CF181E4-6EFF-4842-9ED4-CB49F94407A6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>dispatch_async</string>
+	<string>singleMode</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Dispatch_async</string>
+	<string>SingleMode</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
